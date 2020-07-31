@@ -1,6 +1,14 @@
 # KayidmacOS
 My macOS Development Environment Setup
 
+# Install in oh-my-zsh
+```
+git clone https://github.com/AmrMKayid/KayidmacOS.git $ZSH_CUSTOM/themes/kayid
+ln -s "/root/.oh-my-zsh/custom/themes/kayid/kayid.zsh-theme" "$ZSH_CUSTOM/themes/kayid.zsh-theme"
+vim ~/.zshrc #  ZSH_THEME="kayid"
+source ~/.zshrc
+```
+
 
 Credits
 ============
